@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+    body {
+        height: 100vh;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background-color: #000;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        position: absolute;
+        justify-content: space-evenly;
+        background-color: #a600ffa7;
+    }
+
+    nav ul li {
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 130vh;
+    }
+
+    .card{
+        width: 17.5rem;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin: 0.6rem;
+        background: #a600ff;
+        box-shadow:  0px 0px 10px #5f0092;
+        cursor: pointer;
+    }
+
+    .card:hover{
+        background: #a600ff;
+        box-shadow: inset 0px 0px 10px #5f0092;
+        scale: 0.98;
+    }
+    video{
+        background-size: cover;
+    }
+
+    h1{
+        font-size: 48px;
+    }
+    h1:hover{
+        text-decoration: underline;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+</style>
+
+<body>
+    <nav>
+        <img src="Logo.png" alt="" width="80px" style="float: left;">
+        <ul style="list-style: none; display: flex; gap: 5rem; letter-spacing: 2px; margin-top: 25px;">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Packages</li>
+            <li><a href="Signin.html">Sign In</a></li>
+        </ul>
+    </nav>
+    <video src="Floating in Space.mp4" autoplay loop muted width="100%"></video>
+    <h1 style="text-align: center; top: 100vh; color: #a600ff;">About Us</h1>
+    <div class="main">
+        <div class="card"><b>Space-Themed Experiences:</b> Our company stands out for crafting immersive and thematic travel experiences centered around space exploration. From moon bases to interstellar observatories, every itinerary is carefully designed to offer customers a journey beyond Earth.</div>
+        <div class="card"><b>Space-Themed Experiences:</b> Our company stands out for crafting immersive and thematic travel experiences centered around space exploration. From moon bases to interstellar observatories, every itinerary is carefully designed to offer customers a journey beyond Earth.</div>
+        <div class="card"><b>Space-Themed Experiences:</b> Our company stands out for crafting immersive and thematic travel experiences centered around space exploration. From moon bases to interstellar observatories, every itinerary is carefully designed to offer customers a journey beyond Earth.</div>
+        <div class="card"><b>Space-Themed Experiences:</b> Our company stands out for crafting immersive and thematic travel experiences centered around space exploration. From moon bases to interstellar observatories, every itinerary is carefully designed to offer customers a journey beyond Earth.</div>  
+    </div>
+
+</body>
+
+</html>
